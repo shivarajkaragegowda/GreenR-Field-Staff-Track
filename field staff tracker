@@ -1,0 +1,12 @@
+# Download from ChatGPT link
+wget "<https://chatgpt.com/c/68976bef-22f0-8321-b203-72f6ba18e5f0#:~:text=Download%20the%20zip-,archive,-—%20field%2Dstaff%2Dtracker.zip>"
+
+# Unzip
+unzip field-staff-tracker.zip
+cd field-staff-tracker
+git init
+git branch -M main
+git add .
+git commit -m "Initial commit - Field Staff Tracker App"
+git remote add origin https://github.com/<shivarajkaragegowda>/field-staff-tracker.git
+git push -u origin main
